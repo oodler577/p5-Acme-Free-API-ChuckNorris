@@ -4,7 +4,7 @@ use v5.10;
 use strict;
 use warnings;
 
-our $VERSION = '0.9.9';
+our $VERSION = '0.9.10';
 
 use HTTP::Tiny;
 use JSON            qw/decode_json/;
@@ -89,7 +89,7 @@ and you will get a random quote.
 =head1 DESCRIPTION
 
 This fun module is to demonstrate how to use L<Util::H2O::More> and
-L<Dispatch::Foo> to make creating easily make API SaaS modules and
+L<Dispatch::Fu> to make creating easily make API SaaS modules and
 clients in a clean and idiomatic way. These kind of APIs tracked at
 L<https://www.freepublicapis.com/> are really nice for fun and practice
 because they don't require dealing with API keys in the vast majority of cases.
