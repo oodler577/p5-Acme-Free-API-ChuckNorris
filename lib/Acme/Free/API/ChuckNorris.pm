@@ -20,11 +20,6 @@ sub new {
     return $self;
 }
 
-# Util::H2O::More::d2o needs a "find_json_string_and_decode_it" option ...
-sub get {
-    my ( $self, $endpoint ) = @_;
-}
-
 sub categories {
     my $self = shift;
     my $URL  = sprintf "%s/%s", BASEURL, "categories";
